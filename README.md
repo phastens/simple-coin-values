@@ -13,19 +13,19 @@ This script use coinmarketcap website API to get the actual value, percentage ov
 
 You just need to add the name of coins you want to follow from the [coinmarketcap](https://coinmarketcap.com/) URL to list_curr. If you want bitcoin cash: https://coinmarketcap.com/currencies/bitcoin-cash/
 ```python
-list_curr = ['bitcoin', 'bitcoin-cash'] 
+list_curr = ["bitcoin", "bitcoin-cash"] 
 ```
 
 After you put the amount of coin you have like:
 ```python
-dict_amount = {'bitcoin':3.657,
-         'bitcoin-cash':2.9330} 
+dict_amount = {"bitcoin":3.657,
+         "bitcoin-cash":2.9330} 
 ```
 
 Finally at what price you bought it:
 ```python
-dict_buying_prices = {'bitcoin':897.645,
-         'bitcoin-cash':400.2810} 
+dict_buying_prices = {"bitcoin":897.645,
+         "bitcoin-cash":400.2810} 
 ```
 
 ## Use it
